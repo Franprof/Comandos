@@ -11,7 +11,7 @@
 < corpo >
     < cabeçalho >
         < img  src =" conceito-de-codificação " alt =" Logo dos formadores " >
-        < navegação >
+        <navegação
             < ul >
                 < li > < a  href =" index.html " > Início </ a > </ li >
                 < li > < a  href =" temas.html " > Temas </ a > </ li >
