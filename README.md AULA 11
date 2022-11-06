@@ -1,26 +1,5 @@
-<!DOCTYPEhtml >Comandos para programaçção Au
-
-
 AULA 11 - HTML
 <!DOCTYPE html>
-< html  lang ="pt-br">
-    < meta  charset =" UTF-8 " >
-    < meta  http-equiv = " Conteúdo compatível com X-UA " =" IE=edge " >
-    =largura do dispositivo, escala inicial=1.0 " >
-    < link  rel =" stylesheet " href =" temas.css " >
-    < title > Documento </ title >
-</ cabeça >
-< corpo >
-    < cabeçalho >
-        < img  src =" conceito-de-codificação " alt =" Logo dos formadores " >
-        <navegação
-            < ul >
-                < li > < a  href =" index.html " > Início </ a > </ li >
-                < li > < a  href =" temas.html " > Temas </ a > </ li >
-                < li > < a  href ="" > Contato </ a > </ li >
-            </ ul >
-        </ nav >
-    </ cabeçalho >
-    
-</ corpo >
-</ html >
+< html  lang = "pt-br">
+    < meta  charset = "UTF-8">
+   
