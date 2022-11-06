@@ -1,7 +1,7 @@
 AULA 17 -  CRIANDO UMA NOVA PÁGINA
-<!DOCTYPE html>
-<html>
-    <head>
+<!DOCTYPE html>                                                  1-  Na pasta do seu projeto, crie o arquivo ___________.css.
+<html>                                                           2-  Na mesma pasta, crie a página_________.html, com o seguinte conteúdo:______
+    <head>                                                           Osando as tags estruturantes.
         <meta charset="UTF-8">
         <title>                               </title>
         <link rel="stylesheet" href="         .css">
@@ -15,6 +15,34 @@ AULA 17 -  CRIANDO UMA NOVA PÁGINA
                 <li>                          </li>
                 <li>                          </li>
             </ul>
+        </header>
+    </body>
+</html>
+                                                                             Adicione a estrutura de navegação na lista e adicione âncoras em cada item dela,
+                                                                             para criar links para as outras páginas do projeto.
+                                                                             O primeiro passo para o desenvolver outra página de um site é criar um novo arquivo no Sublime Text
+                                                                             Para isso, podemos utilizar os atalhos:
+                                                                             Ctrl + N no Windows.   ou  Command + M no Mac.                                                                                                                          
+                                                                             Salve o novo arquivo como _________________.html.
+NAVEGANDO ENTRE AS PÁGINAS                                                                          
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Produtos - Barbearia Alura</title>
+        <link rel="stylesheet" href="produtos.css">
+    </head>
+    <body>
+        <header>
+            <h1><img src="logo.png"></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
         </header>
     </body>
 </html>
