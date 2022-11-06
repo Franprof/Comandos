@@ -2,13 +2,11 @@
 
 
 AULA 11 - HTML
-
-<!DOCTYPEhtml>
-< html  lang =" en " >
-< cabeça >
+<!DOCTYPE html>
+< html  lang ="pt-br">
     < meta  charset =" UTF-8 " >
     < meta  http-equiv = " Conteúdo compatível com X-UA " =" IE=edge " >
-    < meta  name =" viewport " content =" largura=largura do dispositivo, escala inicial=1.0 " >
+    =largura do dispositivo, escala inicial=1.0 " >
     < link  rel =" stylesheet " href =" temas.css " >
     < title > Documento </ title >
 </ cabeça >
