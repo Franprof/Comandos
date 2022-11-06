@@ -1,0 +1,20 @@
+AULA 17 -  CRIANDO UMA NOVA PÁGINA
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>                               </title>
+        <link rel="stylesheet" href="         .css">
+    </head>
+    <body>
+        <header>
+            <h1><img src="                    .png"></h1>
+
+            <ul>
+                <li>                          </li>
+                <li>                          </li>
+                <li>                          </li>
+            </ul>
+        </header>
+    </body>
+</html>
