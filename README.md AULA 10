@@ -28,10 +28,23 @@ Dentro do <p style="font-size: 20px">                    - TAMANHO DA FONTE
     </style>                                             - Quando precisamos adicionar duas ou mais informações no CSS,SepaRa por ponto e virgula
                                                            Ex:  style="text-align: center"; style="font-size: 20px" 
          </head>
-               <body>                                    - CORPO EM INGLÊS                        
-               
+               <body>                                      - CORPO EM INGLÊS
+                    <header>                               - A tag <header> informa ao navegador que o conteúdo indicado
+                     TITULO PRINCIPAL                      ● O título principal “                  ”, ficará dentro da tag <header>. 
+                                                           ● O conteúdo “                        ” passa a ter a tag <h2>.
+                                                           ● O conteúdo sobre os “               " passa a ter a tag <h3>. dê uma mesma classe para os dois:
+                                                            Em nosso CSS, as tags <h1> e a <h2> possuíam alinhamento ao centro. No HTML, podemos transformá-los em uma classe, chamando-a
+                                                             titulo-centralizado.
+                     </header>
                CONTEÚDO
-
+               
+<h2>         TEMA                 </h2>                   Aparecerá tudo em uma linha, para que os iténs fiquem listados. usamos o CSS
+ <ul>
+        <li                                   ></li>         
+        <li                                   ></li>
+        <li                                   ></li>
+        <li                                   ></li>
+    </ul>
                </body>
 </html>
 
@@ -64,47 +77,55 @@ GREEN      Verde          0        255        0             # 00 FF 00
 BLUE       Azul           0          0      255             # 00 00 FF
 BLACK      Preto          0          0        0             # 00 00 00
 
-AULA 14 - Estilizando imagem  
+AULA 14 - ESTILIZANDO IMAGEM  
 
-<id> identificar 
-<img id=" IMAGEM " src =" IMAGEM.jpg">
- <p id="   O QUE QUER  DESTACAR NO TEXTO "></p>                             OBS: copiar stlyle, colar no css e remover todo o CSS inline da página html
-                                                                                 - referente a aula 11
+<img id=" IMAGEM " src =" IMAGEM.jpg">                                     <id> identifica
+<p id="   O QUE QUER  DESTACAR NO TEXTO "></p>                             OBS: Stlyle, copiar e colar no css.
+                                                                                Remover todo o CSS inline da página html - referente a aula 11
+                                                                                
+                                                                           
 REGISTRAR NO CSS                                                                      
 body {                                                                     
     background: #CCCCCC                                                    
-h1{
-#IMAGEM QUE QUER COLOCAR {                                               -  Ainda no arquivo style.css, altere a largura e altura da imagem:
+    h1 {
+#IMAGEM QUE QUER COLOCAR {                                          -  Ainda no arquivo style.css, altere a largura, altura, borda superior e inferior da imagem:
 width: 100%; 
 height 100%; 
-padding top:20px; 
 border:10px; 
+padding top:20px; 
 margin-left:15%;
 }
 p {
-    text-align: center;
+    text-align: center;                                              - texto centralizado
 }
 #O QUE QUER  DESTACAR NO TEXTO  {
-    font-size: 20px
+    font-size: 20px                                                  - tamanho da fonte
 }
-em strong {
+em strong {                                                          - itálico e negrito
     color: #FF0000;
 }
 
-AULA 15  LISTAS E DIVISÃO DE CONTEÚDOS 
-<div class="principal">                                               1- Na página index.html, envolva o texto em uma div:
-<h1>  Sobre a Barbearia Alura   </h1>
+AULA 15  LISTAS E DIVISÃO DE CONTEÚDOS                               Há dois tipos de listas:     
+Listar os iténs do <h2>   TEMA      </h2>                           - As lista não ordenadas, em que não importa qual item vem antes. Tag <ul>. Além da tag <ul> para lista não ordenada, precisamos de uma marcação para cada item da
+                                                                       lista. A marcação será com a tag <li>.
+                                                                     - As listas ordenadas, em que a ordem importa, tal como uma receita de bolo, em que devemos acender o
+                                                                      forno antes para depois colocar a massa.  Tag <ol>
+                                                                     
+                                                                      1- Na página index.html, envolva o texto em uma div: dentro do   
+<div class="principal">                                              
+<h1>  TITULO   </h1>
 </div>
 
-<div class="beneficios">                                              2- E abaixo da div principal, crie a div beneficios, com a lista de benefícios e a sua imagem:
-<h2>   Benefícios   </h2>
+<div class=" TEMA ">                                               2- E abaixo da div principal, crie a div TEMA , com a lista de TEMAS e a sua imagem:
+<h2>   TEMA   </h2>
  <ul>
-        <li class="itens">Atendimento aos Clientes</li>         
-        <li class="itens">Espaço diferenciado</li>
-        <li class="itens">Localização</li>
-        <li class="itens">Profissionais Qualificados</li>
+        <li class="itens">              </li>         
+        <li class="itens">              </li>
+        <li class="itens">              </li>
+        <li class="itens">              </li>
     </ul>
-    <img src="beneficios.jpg" class="imagembeneficios">          3- No CSS style.css, remova a estilização da cor de fundo do body e passe-a para a div principal. 
+   
+   <img src="IMAGEM DO TEMA.jpg" class="IMAGEM DOTEMA">            3- No CSS style.css, remova a estilização da cor de fundo do body e passe-a para a div principal. 
                                                                     Além disso, dê um espaçamento interno para ela:
 </div>
 
@@ -125,20 +146,23 @@ body {
 h2 {
     text-align: center;
 }
-                                                                5- Na lista, modifique o seu display para inline-block e faça ela ser alinhada pela linha de cima. 
+                                                                 5- Na lista, modifique o seu display para inline-block e faça ela ser alinhada pela linha de cima. 
 ul {                                                               Além disso, altere a sua largura para ser 20% da página e sua margem externa à direita para ser de 15%:
     display: inline-block;
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
-}                                                               6- Por fim, altere a largura da imagem dos benefícios:
-.imagembeneficios {
+}                                                               6- Por fim, altere a largura da imagem do TEMA:
+.imagemTEMA {
     width: 50%;
 }
 
-AULA 16
+AULA 16 - FINALIZANDO A PÁGINA                                  1- Alura. Para isso, em nosso HTML vamos criar outra divisão que ficará antes do código da primeira imagem e dentro da tag <body>. 
+                                                                  Inserimos uma nova tag <header>, que significa “cabeçalho” em inglês.
+.titulo-principal {                                             2 - No arquivo style.css, dê um espaçamento interno à esquerda para o cabeçalho, de 20px:
+        padding-left: 20px;
+}                                                                
+.titulo-centralizado{
+        text-align: center;                                     3- Remova os estilos das tags h1 e h2 e centralize-os em um único lugar, através da classe titulo-centralizado:                                     
 
 
-
-
-AULA 17
