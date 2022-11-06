@@ -13,20 +13,28 @@ AULA 10
 
 
 
-AULA 11
+AULA 11 - MARCAÇÃO DO 1º TEXTO
 <!DOCTYPE html>
 <html lang="pt-br">
-   <meta charset="UTF-8">
+   
     <title>              NOME DO AQRQUIVO       </title>
+         <head>
+     <meta charset="UTF-8">
+         </head>
+               <body>
 
+                          CONTEÚDO
 
-
-
-
-
-
-
-
-
-
+             </body>
 </html>
+
+AULA 12 - TRABALHANDO CO CSS                                                                     Obs Crie o arquivo CSS style.css.
+body {
+    background: #CCCCCC
+}
+p {
+    text-align: center;
+}
+em strong {
+    color: #FF0000;
+}
