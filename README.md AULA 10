@@ -73,12 +73,13 @@ AULA 14 - Estilizando imagem
 REGISTRAR NO CSS                                                                      
 body {                                                                     
     background: #CCCCCC                                                    
-}
+h1{
 #IMAGEM QUE QUER COLOCAR {                                               -  Ainda no arquivo style.css, altere a largura e altura da imagem:
-    width: 100%; height 100%                                                          - LARGURA E ALTURA
-}
-h1 {
-    text-align: center
+width: 100%; 
+height 100%; 
+padding top:20px; 
+border:10px; 
+margin-left:15%;
 }
 p {
     text-align: center;
@@ -106,6 +107,7 @@ AULA 15  LISTAS E DIVISÃO DE CONTEÚDOS
     <img src="beneficios.jpg" class="imagembeneficios">          3- No CSS style.css, remova a estilização da cor de fundo do body e passe-a para a div principal. 
                                                                     Além disso, dê um espaçamento interno para ela:
 </div>
+
 NO CSS
 body {
 }
