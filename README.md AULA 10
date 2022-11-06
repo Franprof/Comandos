@@ -1,7 +1,7 @@
 # Comandos
 Comandos para programação 
 
-AULA 10
+AULA 10 - MARCAÇÃO DO 1º TEXTO
 <h1> abre titulo
 </h> fecha titulo 
 <p> abre paragrafo
@@ -11,61 +11,64 @@ AULA 10
 <em>  abre enfase(italico)
 </em> fecha enfase
 
-AULA 11 - MARCAÇÃO DO 1º TEXTO
-<!DOCTYPE html>
-<html lang="pt-br">
+AULA 11 - SEPARANDO CONTEÚDO DE INFORMAÇÃO 
+<!DOCTYPE html>                                          - A tag DOCTYPE inicia com o ponto de exclamação “!”. Em seguida, escrevemos DOCTYPE com letras maiúsculas.
+                                                          Finalizamos informando, em letra minúscula, a versão do html que estamos utilizando.
+<html lang="pt-br">                                      - LINGUAGEM PORTUGUÊS DO BRASIL
    
-    <title>              NOME DO AQRQUIVO       </title>
-         <head>
-      <meta charset="UTF-8">
-      <style>
-Dentro do <h1 style="text-align: center">                                                 Obs: se houve 2 styles; sepata por ponto r virgula 
-Dentro do <p style="font-size: 20px">                                                       style="text-align: center" style="font-size: 20px"
-   <link rel="stylesheet" href="style.css">
+    <title>      NOME DO AQRQUIVO  </title>
+         <head> 
+      <meta charset="UTF-8">                              - Significa “conjunto de caracteres" (alfabeto) e é aque vamos utilizar.   
+   
+   <style>                                                                         
+Dentro do <h1 style="text-align: center">   - CENTRALIZAR                           
+Dentro do <p style="font-size: 20px">       - TAMANHO DA FONTE                     -Quando precisamos adicionar duas ou mais informações no CSS,SepaRa por ponto e virgula                                   
+   <link rel="stylesheet" href="style.css"> - LINK CSS                               Ex:  style="text-align: center"; style="font-size: 20px" 
     
-    </head>
-               <body>
+         </head>
+               <body>                           
+               
+               CONTEÚDO
 
-                          CONTEÚDO
-
-             </body>
+               </body>
 </html>
 
 AULA 12 - TRABALHANDO CO CSS                                                                     Obs Crie o arquivo CSS style.css.
 body {
-    background: #CCCCCC
+    background: #CCCCCC - COR DE FUNDO
 }
 p {
-    text-align: center;
+    text-align: center;  - CENTRALIZAR
 }
 em strong {
-    color: #FF0000;
+    color: #FF0000; - COR DA FONTE     
 }
 
 
-AULA 13 - TRABALHANDO COM CSS - CORES
+AULA 13 - TRABALHANDO COM CSS - CORES DA FONTE
+Pode ser o nme da cor em inglês ou em haxadecimal 
 INGLÊS    PORTUGUÊS     DECIMAL                               HEXADECIMAL
                        Vermelho(R) Verde(G) Azul(B)        Vermelho(R) Verde(G) Azul(B)
-    branco            255          255      255             # FF FF FF
-     Amarelo          255          255        0             # FF FF 0
-MAGENTA    Magenta    255            0      255             #  FF 0 FF
-    Vermelho          255            0        0                      #  FF 0 0
-    Ciano             0            255      255                   # 0 FF FF
-     Verde            0            255        0            # 0 FF 0
-BLUE     Azul         0              0      255               # 0 0 FF
-         Preto        0              0        0              #  0 0 0
+WHITE      Branco       255        255      255             # FF FF FF
+YELLOW     Amarelo      255        255        0             # FF FF 0
+MAGENTA    Magenta      255          0      255             # FF 00 FF
+RED        Vermelho     255          0        0             # FF 00 00
+CYAN       Ciano          0        255      255             # 00 FF FF
+GREEN      Verde          0        255        0             # 00 FF 00
+BLUE       Azul           0          0      255             # 00 00 FF
+BLACK      Preto          0          0        0             # 00 00 00
 
-AULA 14 - Estilizando imagem
-<img id="   IMAGEM   " src=" IMAGEM.jpg">
- <p id=" O QUE QUER  DESTACAR NO TEXTO      ">     </p>                                          OBS: copiar stlyle, colar no css e remover todo o CSS inline da página html
-
-REGISTRAR NO CSS                                                                      - referente a aula 11
-
-body {
-    background: #CCCCCC
+AULA 14 - Estilizando imagem  
+<id> identificar 
+<img id=" IMAGEM " src =" IMAGEM.jpg">
+ <p id="   O QUE QUER  DESTACAR NO TEXTO "></p>                             OBS: copiar stlyle, colar no css e remover todo o CSS inline da página html
+                                                                                         - referente a aula 11
+REGISTRAR NO CSS                                                                      
+body {                                                                     
+    background: #CCCCCC                                                    separamos os itens utilizando o ponto e vírgula
 }
 #IMAGEM {
-    width: 100%;
+    width: 100%; 
 }
 h1 {
     text-align: center
@@ -80,8 +83,8 @@ em strong {
     color: #FF0000;
 }
 
-AULA 15  
-
+AULA 15  LISTAS E DIVISÃO DE CONTEÚDOS 
+<div class="principal">
 
 AULA 16
 
