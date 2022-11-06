@@ -46,3 +46,93 @@ NAVEGANDO ENTRE AS PÁGINAS
         </header>
     </body>
 </html>
+
+header {
+    background: #BBBBBB;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+                                                                    - Na página produtos.html, importe o reset.css, antes de importar produtos.css:
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="produtos.css">
+                                                                    - E envolva o logo e o menu em uma div:
+                                                                   
+ <div class="caixa">
+    <h1><img src="logo.png"></h1>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+</div>
+                                                                  -  No arquivo ___________________.css, no header, adicione um padding para cima e para baixo:
+ header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+                                                                   - Por fim, posicione o cabeçalho, alterando a div caixa e o nav:
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}               
+                                                                    - O arquivo produtos.css completo ficará assim:
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+Para treinar o que aprendemos na revisão, experimente trocar as imagens do site por outras com a mesma temática. Assim, você pode visualizar diferentes modelos para seu site.
+Ah! Não se esqueça de voltar ao projeto inicial para acompanhar as próximas aulas.
+                                                                   
+
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
