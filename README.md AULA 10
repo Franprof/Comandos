@@ -19,8 +19,13 @@ AULA 11 - MARCAÇÃO DO 1º TEXTO
    
     <title>              NOME DO AQRQUIVO       </title>
          <head>
-     <meta charset="UTF-8">
-         </head>
+      <meta charset="UTF-8">
+      <style>
+Dentro do <h1 style="text-align: center">                                                 Obs: se houve 2 styles; sepata por ponto r virgula 
+Dentro do <p style="font-size: 20px">                                                       style="text-align: center" style="font-size: 20px"
+   <link rel="stylesheet" href="style.css">
+    
+    </head>
                <body>
 
                           CONTEÚDO
