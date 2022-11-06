@@ -43,14 +43,24 @@ em strong {
 }
 
 
-AULA 13                                                                         
+AULA 13 - TRABALHANDO COM CSS
+INGLÊS    PORTUGUÊS     DECIMAL                               HEXADECIMAL
+                       Vermelho(R) Verde(G) Azul(B)        Vermelho(R) Verde(G) Azul(B)
+    branco            255          255      255             # FF FF FF
+     Amarelo          255          255        0             # FF FF 0
+MAGENTA    Magenta    255            0      255             #  FF 0 FF
+    Vermelho          255            0        0                      #  FF 0 0
+    Ciano             0            255      255                   # 0 FF FF
+     Verde            0            255        0            # 0 FF 0
+BLUE     Azul         0              0      255               # 0 0 FF
+         Preto        0              0        0              #  0 0 0
 
 AULA 14 - Estilizando imagem
-<img id="banner" src="banner.jpg">
-                                           OBS: copiar stlyle e colar no css e remover todo o CSS inline da página html
+<img id=      "IMAGEM " src="banner.jpg">
+ <p id="       ">     </p>                                          OBS: copiar stlyle, colar no css e remover todo o CSS inline da página html
+                                                                         - referente a aula 11
 
-AULA 15
-
+AULA 15  
 
 
 AULA 16
