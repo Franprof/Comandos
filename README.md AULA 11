@@ -2,4 +2,13 @@ AULA 11 - HTML
 <!DOCTYPE html>
 < html  lang = "pt-br">
     < meta  charset = "UTF-8">
+    <head>
+    titulo
+    
+    </head>
+    
+          <bady>
+          conteúdo
+          
+          </bady>
    
