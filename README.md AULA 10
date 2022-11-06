@@ -11,8 +11,6 @@ AULA 10
 <em>  abre enfase(italico)
 </em> fecha enfase
 
-
-
 AULA 11 - MARCAÇÃO DO 1º TEXTO
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -45,9 +43,11 @@ em strong {
 }
 
 
-AULA 13
+AULA 13                                                                         
 
-
+AULA 14 - Estilizando imagem
+<img id="banner" src="banner.jpg">
+                                           OBS: copiar stlyle e colar no css e remover todo o CSS inline da página html
 
 AULA 15
 
