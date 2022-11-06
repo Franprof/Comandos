@@ -1,7 +1,5 @@
 # Comandos para programação 
-
 AULA 10 - MARCAÇÃO DO 1º TEXTO
-
 <h1>                                                     abre titulo
 </h>                                                     fecha titulo 
 <p>                                                      abre paragrafo
@@ -12,16 +10,13 @@ AULA 10 - MARCAÇÃO DO 1º TEXTO
 </em>                                                    fecha enfase
 
 AULA 11 - SEPARANDO CONTEÚDO DE INFORMAÇÃO 
-
 <!DOCTYPE html>                                          - A tag DOCTYPE inicia com o ponto de exclamação “!”. Em seguida, escrevemos DOCTYPE com letras maiúsculas.
                                                           Finalizamos informando, em letra minúscula, a versão do html que estamos utilizando.
 <html lang="pt-br">                                      - LINGUAGEM PORTUGUÊS DO BRASIL
-   
-    <title>      NOME DO AQRQUIVO  </title>
+       <title>      NOME DO AQRQUIVO  </title>
          <head>                                          - CABEÇA EM INGLÊS
       <meta charset="UTF-8">                             - Significa “conjunto de caracteres" (alfabeto)que vamos utilizar.   
-   
-   <style>                                                                         
+      <style>                                                                         
 Dentro do <h1 style="text-align: center">                - CENTRALIZAR                           
 Dentro do <p style="font-size: 20px">                    - TAMANHO DA FONTE                                             
    <link rel="stylesheet" href="style.css">              - LINK CSS                   
@@ -33,12 +28,11 @@ Dentro do <p style="font-size: 20px">                    - TAMANHO DA FONTE
                      TITULO PRINCIPAL                      ● O título principal “                  ”, ficará dentro da tag <header>. 
                                                            ● O conteúdo “                        ” passa a ter a tag <h2>.
                                                            ● O conteúdo sobre os “               " passa a ter a tag <h3>. dê uma mesma classe para os dois:
-                                                            Em nosso CSS, as tags <h1> e a <h2> possuíam alinhamento ao centro. No HTML, podemos transformá-los em uma classe, chamando-a
+                                                             Em nosso CSS, as tags <h1> e a <h2> possuíam alinhamento ao centro. No HTML, podemos transformá-los em uma classe, chamando-a
                                                              titulo-centralizado.
                      </header>
                CONTEÚDO
-               
-<h2>         TEMA                 </h2>                   Aparecerá tudo em uma linha, para que os iténs fiquem listados. usamos o CSS
+     <h2>         TEMA                 </h2>                   Aparecerá tudo em uma linha, para que os iténs fiquem listados. usamos o CSS
  <ul>
         <li                                   ></li>         
         <li                                   ></li>
@@ -48,10 +42,8 @@ Dentro do <p style="font-size: 20px">                    - TAMANHO DA FONTE
                </body>
 </html>
 
-AULA 12 - TRABALHANDO CO CSS                              -Obs: Crie o arquivo CSS  salvar com o nome style.css.
-                                                           CSS significa “folhas de estilo em cascata”, em português).
-                                                           A ação deve entrar no código entre as chaves({}).
-                                                           No arquivo CSS, fazemos referência, sempre iniciando com #,
+AULA 12 - TRABALHANDO CO CSS                              -Obs: Crie o arquivo CSS  salvar com o nome style.css. CSS significa “folhas de estilo em cascata”, em português).
+                                                           A ação deve entrar no código entre as chaves({}). No arquivo CSS, fazemos referência, sempre iniciando com #,
 body {
     background: #CCCCCC;                                 - COR DE FUNDO
 }
@@ -61,7 +53,6 @@ p {
 em strong {
     color: #FF0000;                                      - COR DA FONTE     
 }
-
 
 AULA 13 - TRABALHANDO COM CSS - CORES DA FONTE
 
@@ -82,8 +73,6 @@ AULA 14 - ESTILIZANDO IMAGEM
 <img id=" IMAGEM " src =" IMAGEM.jpg">                                     <id> identifica
 <p id="   O QUE QUER  DESTACAR NO TEXTO "></p>                             OBS: Stlyle, copiar e colar no css.
                                                                                 Remover todo o CSS inline da página html - referente a aula 11
-                                                                                
-                                                                           
 REGISTRAR NO CSS                                                                      
 body {                                                                     
     background: #CCCCCC                                                    
@@ -110,15 +99,15 @@ Listar os iténs do <h2>   TEMA      </h2>                           - As lista 
                                                                        lista. A marcação será com a tag <li>.
                                                                      - As listas ordenadas, em que a ordem importa, tal como uma receita de bolo, em que devemos acender o
                                                                       forno antes para depois colocar a massa.  Tag <ol>
-                                                                     
-                                                                      1- Na página index.html, envolva o texto em uma div: dentro do   
+                                                                    1- Na página index.html, envolva o texto em uma div:    
 <div class="principal">                                              
 <h1>  TITULO   </h1>
-</div>
+
 
 <div class=" TEMA ">                                               2- E abaixo da div principal, crie a div TEMA , com a lista de TEMAS e a sua imagem:
 <h2>   TEMA   </h2>
- <ul>
+</div>
+     <ul>
         <li class="itens">              </li>         
         <li class="itens">              </li>
         <li class="itens">              </li>
@@ -127,7 +116,6 @@ Listar os iténs do <h2>   TEMA      </h2>                           - As lista 
    
    <img src="IMAGEM DO TEMA.jpg" class="IMAGEM DOTEMA">            3- No CSS style.css, remova a estilização da cor de fundo do body e passe-a para a div principal. 
                                                                     Além disso, dê um espaçamento interno para ela:
-</div>
 
 NO CSS
 body {
@@ -166,3 +154,5 @@ AULA 16 - FINALIZANDO A PÁGINA                                  1- Alura. Para 
         text-align: center;                                     3- Remova os estilos das tags h1 e h2 e centralize-os em um único lugar, através da classe titulo-centralizado:                                     
 
 
+                                                                                
+                    
