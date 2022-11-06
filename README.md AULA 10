@@ -1,6 +1,7 @@
 # Comandos para programação 
 
 AULA 10 - MARCAÇÃO DO 1º TEXTO
+
 <h1>                                                     abre titulo
 </h>                                                     fecha titulo 
 <p>                                                      abre paragrafo
@@ -11,6 +12,7 @@ AULA 10 - MARCAÇÃO DO 1º TEXTO
 </em>                                                    fecha enfase
 
 AULA 11 - SEPARANDO CONTEÚDO DE INFORMAÇÃO 
+
 <!DOCTYPE html>                                          - A tag DOCTYPE inicia com o ponto de exclamação “!”. Em seguida, escrevemos DOCTYPE com letras maiúsculas.
                                                           Finalizamos informando, em letra minúscula, a versão do html que estamos utilizando.
 <html lang="pt-br">                                      - LINGUAGEM PORTUGUÊS DO BRASIL
@@ -33,10 +35,12 @@ Dentro do <p style="font-size: 20px">                    - TAMANHO DA FONTE
                </body>
 </html>
 
-AULA 12 - TRABALHANDO CO CSS                             -Obs: Crie o arquivo CSS  salvar com o nome style.css.
+AULA 12 - TRABALHANDO CO CSS                              -Obs: Crie o arquivo CSS  salvar com o nome style.css.
                                                            CSS significa “folhas de estilo em cascata”, em português).
+                                                           A ação deve entrar no código entre as chaves({}).
+                                                           No arquivo CSS, fazemos referência, sempre iniciando com #,
 body {
-    background: #CCCCCC                                  - COR DE FUNDO
+    background: #CCCCCC;                                 - COR DE FUNDO
 }
 p {
     text-align: center;                                  - CENTRALIZAR
@@ -70,8 +74,8 @@ REGISTRAR NO CSS
 body {                                                                     
     background: #CCCCCC                                                    
 }
-#IMAGEM QUE QUER COLOCAR {
-    width: 100%;                                                          - LARGURA
+#IMAGEM QUE QUER COLOCAR {                                               -  Ainda no arquivo style.css, altere a largura e altura da imagem:
+    width: 100%; height 100%                                                          - LARGURA E ALTURA
 }
 h1 {
     text-align: center
